@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-05-11 17:04:36",
+  "model": "model3",
+  "step": "04_prepare_data",
+  "feature": {
+    "num_features": 136,
+    "feature_columns_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\configs\\model3_feature_columns.json",
+    "node_feature_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_node_features.csv",
+    "scaler_fit": "train only"
+  },
+  "data": {
+    "num_nodes": 25000,
+    "label_counts": {
+      "0": 19868,
+      "1": 5132
+    },
+    "split_counts": {
+      "train": 16000,
+      "valid": 4000,
+      "test": 5000
+    },
+    "pos_weight": 3.8706240487062407
+  },
+  "edges": {
+    "base": {
+      "edge_count": 356866,
+      "num_relations": 3
+    },
+    "text_similarity": {
+      "edge_count": 357576,
+      "num_relations": 4
+    }
+  },
+  "outputs": {
+    "scaler": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_standard_scaler.pkl",
+    "tensor_data": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_tensor_data.pt",
+    "pyg_base": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_pyg_data_base.pt",
+    "pyg_text_similarity": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_pyg_data_text_similarity.pt"
+  }
+}

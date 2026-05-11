@@ -1,0 +1,17 @@
+{
+    "sampling_method": "Product-Burst Ratio Sampling",
+    "target_nodes": 25000,
+    "actual_nodes": 25000,
+    "min_prod_review_count": 35,
+    "burst_days": 30,
+    "random_state": 42,
+    "num_products": 1990,
+    "num_users": 21896,
+    "normal_count": 19868,
+    "fake_count": 5132,
+    "fake_ratio": 0.20528,
+    "date_min": "2007-07-25 00:00:00",
+    "date_max": "2015-01-10 00:00:00",
+    "saved_sample_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_sampled_reviews.csv",
+    "saved_product_burst_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\outputs\\product_burst_candidates.csv"
+}

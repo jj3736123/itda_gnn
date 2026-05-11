@@ -1,0 +1,23 @@
+{
+  "node_count": 25000,
+  "feature_count": 392,
+  "manual_feature_count": 8,
+  "sbert_feature_count": 384,
+  "edge_count": 356866,
+  "edge_type_counts": {
+    "0": 10164,
+    "1": 274492,
+    "2": 72210
+  },
+  "train_count": 16000,
+  "valid_count": 4000,
+  "test_count": 5000,
+  "train_positive_count": 3285,
+  "train_negative_count": 12715,
+  "pos_weight": 3.8706240487062407,
+  "scaler_fit_on": "train only",
+  "tensor_data_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_tensor_data.pt",
+  "pyg_data_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_pyg_data.pt",
+  "pyg_saved": true,
+  "feature_columns_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\configs\\model2_feature_columns.json"
+}

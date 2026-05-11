@@ -1,0 +1,15 @@
+# Model3 Comparison Result
+
+## Performance Table
+
+| Rank | Model | Test PR-AUC | Macro F1 | Accuracy | Precision | Recall | Threshold |
+|---:|---|---:|---:|---:|---:|---:|---:|
+| 1 | model3_rgcn_pca128_text_similarity | 0.5909 | 0.7187 | 0.812 | 0.5393 | 0.575 | 0.67 |
+| 2 | model3_rgcn_pca128_original_edges | 0.5823 | 0.707 | 0.798 | 0.5067 | 0.5867 | 0.64 |
+| 3 | model2_rgcn_with_new_user_burst_tuned | 0.5789 | 0.7075 | 0.8088 | 0.5339 | 0.537 | - |
+
+## Main Findings
+
+- PCA 128 original edge model improved Test PR-AUC from 0.5789 to 0.5823.
+- Adding TEXT_SIMILARITY edge improved Test PR-AUC from 0.5823 to 0.5909.
+- Final model3 improved Test PR-AUC by 0.012 compared with model2 best.

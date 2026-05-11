@@ -1,0 +1,26 @@
+{
+  "node_feature_shape": [
+    25000,
+    397
+  ],
+  "manual_feature_columns": [
+    "rating",
+    "rating_extreme",
+    "rating_abs_deviation_from_prod_avg",
+    "same_rating_prod_7d_count",
+    "review_length_log",
+    "user_review_count_global",
+    "prod_review_count_global",
+    "user_age_days_at_review"
+  ],
+  "manual_feature_count": 8,
+  "sbert_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "sbert_feature_count": 384,
+  "total_feature_count": 392,
+  "missing_feature_count": 0,
+  "sample_node_count": 25000,
+  "label_counts": {
+    "0": 19868,
+    "1": 5132
+  }
+}

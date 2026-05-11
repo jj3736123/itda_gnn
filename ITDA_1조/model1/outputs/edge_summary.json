@@ -1,0 +1,30 @@
+{
+    "num_nodes": 25000,
+    "total_directed_edges": 356866,
+    "total_undirected_pairs_before_dedup": 178433,
+    "rur_pair_count": 5082,
+    "product_time_7d_pair_count": 137246,
+    "new_user_burst_7d_pair_count": 36105,
+    "new_low_activity_review_count": 11580,
+    "edge_count_by_type": [
+        {
+            "edge_type": 0,
+            "edge_name": "RUR",
+            "directed_edge_count": 10164
+        },
+        {
+            "edge_type": 1,
+            "edge_name": "PRODUCT_TIME_7D",
+            "directed_edge_count": 274492
+        },
+        {
+            "edge_type": 2,
+            "edge_name": "NEW_USER_BURST_7D",
+            "directed_edge_count": 72210
+        }
+    ],
+    "saved_edge_list_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_list.csv",
+    "saved_edge_index_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_index.npy",
+    "saved_edge_type_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_type.npy",
+    "saved_edge_config_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\configs\\model1_edge_config.json"
+}

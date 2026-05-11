@@ -1,0 +1,196 @@
+{
+  "model_name": "model2_rgcn_tuned_with_new_user_burst",
+  "prediction_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\final_rgcn_tuned_all_predictions.csv",
+  "high_conf_threshold": 0.8,
+  "top_product_count": 10,
+  "product_summary_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\product_suspicious_summary.csv",
+  "high_conf_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\high_confidence_fake_reviews.csv",
+  "dashboard_nodes_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\dashboard_nodes.csv",
+  "dashboard_edges_output_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\dashboard_edges.csv",
+  "case_study_dir": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies",
+  "total_high_conf_fake_reviews": 3503,
+  "top_products": [
+    {
+      "suspicious_rank": 1,
+      "prod_id": 2852,
+      "review_count": 8,
+      "avg_fake_probability": 0.98315929625,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 0.75,
+      "internal_new_user_burst_7d_edges": 6,
+      "internal_total_edges": 24
+    },
+    {
+      "suspicious_rank": 2,
+      "prod_id": 2710,
+      "review_count": 8,
+      "avg_fake_probability": 0.97393267625,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 0.875,
+      "new_low_activity_ratio": 0.875,
+      "internal_new_user_burst_7d_edges": 22,
+      "internal_total_edges": 50
+    },
+    {
+      "suspicious_rank": 3,
+      "prod_id": 2894,
+      "review_count": 8,
+      "avg_fake_probability": 0.9699572725,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 1.0,
+      "internal_new_user_burst_7d_edges": 32,
+      "internal_total_edges": 64
+    },
+    {
+      "suspicious_rank": 4,
+      "prod_id": 654,
+      "review_count": 9,
+      "avg_fake_probability": 0.9699213877777778,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 1.0,
+      "internal_new_user_burst_7d_edges": 28,
+      "internal_total_edges": 56
+    },
+    {
+      "suspicious_rank": 5,
+      "prod_id": 378,
+      "review_count": 10,
+      "avg_fake_probability": 0.9597182139999999,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 0.9,
+      "internal_new_user_burst_7d_edges": 42,
+      "internal_total_edges": 86
+    },
+    {
+      "suspicious_rank": 6,
+      "prod_id": 404,
+      "review_count": 10,
+      "avg_fake_probability": 0.959043215,
+      "pred_fake_ratio": 0.9,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 0.9,
+      "internal_new_user_burst_7d_edges": 72,
+      "internal_total_edges": 144
+    },
+    {
+      "suspicious_rank": 7,
+      "prod_id": 2548,
+      "review_count": 23,
+      "avg_fake_probability": 0.9584302747826087,
+      "pred_fake_ratio": 0.9565217391304348,
+      "true_fake_ratio": 0.9130434782608695,
+      "new_low_activity_ratio": 0.9565217391304348,
+      "internal_new_user_burst_7d_edges": 308,
+      "internal_total_edges": 620
+    },
+    {
+      "suspicious_rank": 8,
+      "prod_id": 3723,
+      "review_count": 8,
+      "avg_fake_probability": 0.94809254375,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 0.875,
+      "new_low_activity_ratio": 0.875,
+      "internal_new_user_burst_7d_edges": 30,
+      "internal_total_edges": 72
+    },
+    {
+      "suspicious_rank": 9,
+      "prod_id": 747,
+      "review_count": 10,
+      "avg_fake_probability": 0.9447212369999999,
+      "pred_fake_ratio": 0.9,
+      "true_fake_ratio": 1.0,
+      "new_low_activity_ratio": 0.9,
+      "internal_new_user_burst_7d_edges": 20,
+      "internal_total_edges": 50
+    },
+    {
+      "suspicious_rank": 10,
+      "prod_id": 598,
+      "review_count": 7,
+      "avg_fake_probability": 0.9422009557142857,
+      "pred_fake_ratio": 1.0,
+      "true_fake_ratio": 0.7142857142857143,
+      "new_low_activity_ratio": 1.0,
+      "internal_new_user_burst_7d_edges": 28,
+      "internal_total_edges": 56
+    }
+  ],
+  "case_study_records": [
+    {
+      "rank": 1,
+      "prod_id": 2852,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2852_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2852_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2852_summary.txt"
+    },
+    {
+      "rank": 2,
+      "prod_id": 2710,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2710_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2710_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2710_summary.txt"
+    },
+    {
+      "rank": 3,
+      "prod_id": 2894,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2894_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2894_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2894_summary.txt"
+    },
+    {
+      "rank": 4,
+      "prod_id": 654,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_654_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_654_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_654_summary.txt"
+    },
+    {
+      "rank": 5,
+      "prod_id": 378,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_378_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_378_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_378_summary.txt"
+    },
+    {
+      "rank": 6,
+      "prod_id": 404,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_404_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_404_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_404_summary.txt"
+    },
+    {
+      "rank": 7,
+      "prod_id": 2548,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2548_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2548_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_2548_summary.txt"
+    },
+    {
+      "rank": 8,
+      "prod_id": 3723,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_3723_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_3723_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_3723_summary.txt"
+    },
+    {
+      "rank": 9,
+      "prod_id": 747,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_747_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_747_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_747_summary.txt"
+    },
+    {
+      "rank": 10,
+      "prod_id": 598,
+      "review_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_598_reviews.csv",
+      "edge_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_598_internal_edges.csv",
+      "summary_file": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\report_assets\\case_studies\\product_598_summary.txt"
+    }
+  ]
+}

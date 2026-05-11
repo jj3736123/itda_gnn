@@ -1,0 +1,97 @@
+{
+  "description": "Comparison between model1 final RGCN and model2 RGCN variants.",
+  "ranking_metric": "test_pr_auc",
+  "best_model": "model2_rgcn_tuned_with_new_user_burst",
+  "best_test_pr_auc": 0.5788755222230659,
+  "model1_baseline_pr_auc": 0.5688644353771892,
+  "records": [
+    {
+      "rank_by_pr_auc": 1,
+      "model_name": "model2_rgcn_tuned_with_new_user_burst",
+      "source": "model2",
+      "test_pr_auc": 0.5788755222230659,
+      "test_macro_f1": 0.7075493146497726,
+      "test_accuracy": 0.8088,
+      "test_precision": 0.5339147286821705,
+      "test_recall": 0.5370370370370371,
+      "confusion_matrix": [
+        [
+          3493,
+          481
+        ],
+        [
+          475,
+          551
+        ]
+      ],
+      "note": "model2 tuned RGCN. hidden_dim 32, dropout 0.5, lr 0.002, weight_decay 5e-4. Uses all 3 edge types.",
+      "pr_auc_diff_from_model1": 0.010011086845876704
+    },
+    {
+      "rank_by_pr_auc": 2,
+      "model_name": "model1_rgcn_with_new_user_burst",
+      "source": "model1",
+      "test_pr_auc": 0.5688644353771892,
+      "test_macro_f1": 0.7130389237327492,
+      "test_accuracy": 0.8066,
+      "test_precision": NaN,
+      "test_recall": NaN,
+      "confusion_matrix": [
+        [
+          3444,
+          530
+        ],
+        [
+          437,
+          589
+        ]
+      ],
+      "note": "model1 final model. manual 8 + TF-IDF/SVD 32. Uses RUR, PRODUCT_TIME_7D, NEW_USER_BURST_7D.",
+      "pr_auc_diff_from_model1": 0.0
+    },
+    {
+      "rank_by_pr_auc": 3,
+      "model_name": "model2_rgcn_basic_with_new_user_burst",
+      "source": "model2",
+      "test_pr_auc": 0.5661492678133307,
+      "test_macro_f1": 0.7080372180237067,
+      "test_accuracy": 0.807,
+      "test_precision": 0.528692380056444,
+      "test_recall": 0.5477582846003899,
+      "confusion_matrix": [
+        [
+          3473,
+          501
+        ],
+        [
+          464,
+          562
+        ]
+      ],
+      "note": "model2 basic RGCN. manual 8 + SBERT 384. Uses all 3 edge types.",
+      "pr_auc_diff_from_model1": -0.0027151675638584782
+    },
+    {
+      "rank_by_pr_auc": 4,
+      "model_name": "model2_rgcn_tuned_without_new_user_burst",
+      "source": "model2",
+      "test_pr_auc": 0.5389274638168098,
+      "test_macro_f1": 0.694848908500614,
+      "test_accuracy": 0.801,
+      "test_precision": 0.5151219512195122,
+      "test_recall": 0.5146198830409356,
+      "confusion_matrix": [
+        [
+          3477,
+          497
+        ],
+        [
+          498,
+          528
+        ]
+      ],
+      "note": "model2 tuned RGCN ablation. Removes NEW_USER_BURST_7D edge. Uses only RUR and PRODUCT_TIME_7D.",
+      "pr_auc_diff_from_model1": -0.029936971560379444
+    }
+  ]
+}

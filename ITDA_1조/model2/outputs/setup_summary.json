@@ -1,0 +1,48 @@
+{
+  "model2_goal": "Reuse model1 sample, split, and edges. Upgrade only text representation from TF-IDF/SVD to SBERT.",
+  "copied_files": [
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_sampled_reviews.csv",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_sampled_reviews.csv"
+    },
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_split.csv",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_split.csv"
+    },
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_list.csv",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_list.csv"
+    },
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_index.npy",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_index.npy"
+    },
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_edge_type.npy",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_type.npy"
+    },
+    {
+      "source": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\configs\\model1_edge_config.json",
+      "target": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\configs\\model2_edge_config.json"
+    }
+  ],
+  "sample_shape": [
+    25000,
+    8
+  ],
+  "sample_product_count": 1990,
+  "sample_user_count": 21896,
+  "sample_label_counts": {
+    "0": 19868,
+    "1": 5132
+  },
+  "sample_fake_ratio": 0.20528,
+  "split_shape": [
+    25000,
+    6
+  ],
+  "edge_list_shape": [
+    356866,
+    4
+  ]
+}

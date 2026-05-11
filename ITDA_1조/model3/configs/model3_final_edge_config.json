@@ -1,0 +1,22 @@
+{
+  "model": "model3_final",
+  "internal_experiment_name": "model3_final_thr085_topk5",
+  "selected_by": "validation PR-AUC",
+  "text_similarity_edge": {
+    "edge_name": "TEXT_SIMILARITY",
+    "same_prod_id": true,
+    "different_user_id": true,
+    "min_text_length": 20,
+    "cosine_similarity_threshold": 0.85,
+    "top_k_per_review": 5,
+    "bidirectional_directed_edges": true,
+    "label_used": false,
+    "prediction_used": false,
+    "directed_edge_count": 822,
+    "products_with_text_edges": 91
+  },
+  "edge_counts": {
+    "combined_edge_count": 357688,
+    "num_relations": 4
+  }
+}

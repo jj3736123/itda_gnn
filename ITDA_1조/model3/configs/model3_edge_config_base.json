@@ -1,0 +1,14 @@
+{
+    "edge_type_map": {
+        "RUR": 0,
+        "PRODUCT_TIME_7D": 1,
+        "NEW_USER_BURST_7D": 2
+    },
+    "time_window_days": 7,
+    "new_user_burst_condition": {
+        "user_review_count_global": "<= 2",
+        "user_age_days_at_review": "<= 30"
+    },
+    "is_undirected": true,
+    "self_loop_included": false
+}

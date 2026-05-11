@@ -1,0 +1,11 @@
+{
+    "num_nodes": 25000,
+    "num_features": 40,
+    "manual_feature_count": 8,
+    "text_feature_count": 32,
+    "normal_count": 19868,
+    "fake_count": 5132,
+    "fake_ratio": 0.20528,
+    "saved_node_feature_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_node_features.csv",
+    "saved_feature_columns_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\configs\\model1_feature_columns.json"
+}

@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-05-11 21:06:04",
+  "model": "model3_rgcn_pca128_text_similarity",
+  "case_study_rule": {
+    "min_review_count": 20,
+    "high_conf_threshold": 0.8,
+    "top_n_products": 10
+  },
+  "counts": {
+    "total_products": 1990,
+    "eligible_products": 290,
+    "dashboard_nodes": 592,
+    "dashboard_edges": 53950,
+    "high_confidence_reviews": 454
+  },
+  "top_products": [
+    {
+      "case_rank": 1,
+      "prod_id": 4558,
+      "review_count": 24,
+      "avg_fake_probability": 0.8954930729999999,
+      "pred_fake_ratio": 0.9166666666666666,
+      "high_conf_fake_ratio": 0.9166666666666666,
+      "internal_new_user_burst_7d_edges": 382,
+      "internal_text_similarity_edges": 54,
+      "representative_score": 0.9214599458495605
+    },
+    {
+      "case_rank": 2,
+      "prod_id": 2548,
+      "review_count": 23,
+      "avg_fake_probability": 0.9563833017956521,
+      "pred_fake_ratio": 0.9565217391304348,
+      "high_conf_fake_ratio": 0.9565217391304348,
+      "internal_new_user_burst_7d_edges": 308,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.7349758105636929
+    },
+    {
+      "case_rank": 3,
+      "prod_id": 3962,
+      "review_count": 56,
+      "avg_fake_probability": 0.8110830868775997,
+      "pred_fake_ratio": 0.8035714285714286,
+      "high_conf_fake_ratio": 0.7678571428571429,
+      "internal_new_user_burst_7d_edges": 1948,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.6600019889621868
+    },
+    {
+      "case_rank": 4,
+      "prod_id": 247,
+      "review_count": 52,
+      "avg_fake_probability": 0.8134479335175,
+      "pred_fake_ratio": 0.8461538461538461,
+      "high_conf_fake_ratio": 0.8461538461538461,
+      "internal_new_user_burst_7d_edges": 822,
+      "internal_text_similarity_edges": 4,
+      "representative_score": 0.6555966719832357
+    },
+    {
+      "case_rank": 5,
+      "prod_id": 2397,
+      "review_count": 34,
+      "avg_fake_probability": 0.8671428601929412,
+      "pred_fake_ratio": 0.9117647058823529,
+      "high_conf_fake_ratio": 0.8529411764705882,
+      "internal_new_user_burst_7d_edges": 428,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.6452174988287583
+    },
+    {
+      "case_rank": 6,
+      "prod_id": 4625,
+      "review_count": 25,
+      "avg_fake_probability": 0.8151321428624767,
+      "pred_fake_ratio": 0.84,
+      "high_conf_fake_ratio": 0.8,
+      "internal_new_user_burst_7d_edges": 184,
+      "internal_text_similarity_edges": 2,
+      "representative_score": 0.6330135495150346
+    },
+    {
+      "case_rank": 7,
+      "prod_id": 56,
+      "review_count": 188,
+      "avg_fake_probability": 0.801532661023617,
+      "pred_fake_ratio": 0.8351063829787234,
+      "high_conf_fake_ratio": 0.75,
+      "internal_new_user_burst_7d_edges": 3748,
+      "internal_text_similarity_edges": 190,
+      "representative_score": 0.6324015293559779
+    },
+    {
+      "case_rank": 8,
+      "prod_id": 3074,
+      "review_count": 22,
+      "avg_fake_probability": 0.7898071086659091,
+      "pred_fake_ratio": 0.7727272727272727,
+      "high_conf_fake_ratio": 0.7727272727272727,
+      "internal_new_user_burst_7d_edges": 274,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.6195253907661414
+    },
+    {
+      "case_rank": 9,
+      "prod_id": 3392,
+      "review_count": 27,
+      "avg_fake_probability": 0.7844796047037037,
+      "pred_fake_ratio": 0.8148148148148148,
+      "high_conf_fake_ratio": 0.7037037037037037,
+      "internal_new_user_burst_7d_edges": 298,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.584036791880738
+    },
+    {
+      "case_rank": 10,
+      "prod_id": 2879,
+      "review_count": 141,
+      "avg_fake_probability": 0.7036682155364153,
+      "pred_fake_ratio": 0.7163120567375887,
+      "high_conf_fake_ratio": 0.6879432624113475,
+      "internal_new_user_burst_7d_edges": 8836,
+      "internal_text_similarity_edges": 0,
+      "representative_score": 0.5816572154905241
+    }
+  ],
+  "outputs": {
+    "product_summary": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\report_assets\\case_studies\\model3_product_suspicious_summary.csv",
+    "high_conf_reviews": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\report_assets\\case_studies\\model3_high_confidence_fake_reviews.csv",
+    "dashboard_nodes": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\report_assets\\case_studies\\model3_dashboard_nodes.csv",
+    "dashboard_edges": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\report_assets\\case_studies\\model3_dashboard_edges.csv",
+    "markdown_summary": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\report_assets\\case_studies\\model3_representative_case_study_summary.md"
+  }
+}

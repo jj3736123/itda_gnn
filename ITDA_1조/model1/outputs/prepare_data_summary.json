@@ -1,0 +1,40 @@
+{
+    "num_nodes": 25000,
+    "num_features": 40,
+    "num_edges": 356866,
+    "num_edge_types": 3,
+    "random_state": 42,
+    "split_ratio": {
+        "train": 0.64,
+        "valid": 0.16,
+        "test": 0.2
+    },
+    "split_summary": {
+        "train": {
+            "count": 16000,
+            "normal_count": 12715,
+            "fake_count": 3285,
+            "fake_ratio": 0.2053125
+        },
+        "valid": {
+            "count": 4000,
+            "normal_count": 3179,
+            "fake_count": 821,
+            "fake_ratio": 0.20525
+        },
+        "test": {
+            "count": 5000,
+            "normal_count": 3974,
+            "fake_count": 1026,
+            "fake_ratio": 0.2052
+        }
+    },
+    "train_normal_count": 12715,
+    "train_fake_count": 3285,
+    "pos_weight": 3.8706240487062407,
+    "pyg_data_saved": true,
+    "saved_split_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_split.csv",
+    "saved_scaler_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_standard_scaler.pkl",
+    "saved_tensor_data_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_tensor_data.pt",
+    "saved_pyg_data_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model1\\data\\model1_pyg_data.pt"
+}

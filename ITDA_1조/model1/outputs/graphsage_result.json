@@ -1,0 +1,63 @@
+{
+    "model_name": "SimpleGraphSAGE_relation_agnostic",
+    "best_epoch": 59,
+    "save_best_by": "valid_pr_auc",
+    "best_validation_threshold": 0.6800000000000002,
+    "num_nodes": 25000,
+    "num_features": 40,
+    "num_edges_after_dedup": 284656,
+    "hyperparameters": {
+        "hidden_channels": 64,
+        "dropout": 0.3,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "max_epochs": 150,
+        "patience": 25,
+        "pos_weight": 3.87062406539917
+    },
+    "train_result": {
+        "accuracy": 0.8508125,
+        "macro_f1": 0.7764751979971073,
+        "pr_auc": 0.696482553354352,
+        "confusion_matrix": [
+            [
+                11420,
+                1295
+            ],
+            [
+                1092,
+                2193
+            ]
+        ]
+    },
+    "valid_result": {
+        "accuracy": 0.79675,
+        "macro_f1": 0.6927748524313158,
+        "pr_auc": 0.5291838498579314,
+        "confusion_matrix": [
+            [
+                2757,
+                422
+            ],
+            [
+                391,
+                430
+            ]
+        ]
+    },
+    "test_result": {
+        "accuracy": 0.7988,
+        "macro_f1": 0.6984872331222385,
+        "pr_auc": 0.5400356399042227,
+        "confusion_matrix": [
+            [
+                3439,
+                535
+            ],
+            [
+                471,
+                555
+            ]
+        ]
+    }
+}

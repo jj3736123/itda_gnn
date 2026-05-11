@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-05-11 16:54:07",
+  "model": "model3",
+  "source_model": "model2",
+  "purpose": "Initialize model3 using model2 sample, split, edge, and SBERT feature source.",
+  "strategy": {
+    "sample": "Reuse model2 sample",
+    "split": "Reuse model2 split",
+    "base_edges": [
+      "RUR",
+      "PRODUCT_TIME_7D",
+      "NEW_USER_BURST_7D"
+    ],
+    "next_steps": [
+      "Create SBERT PCA 128 node features",
+      "Create TEXT_SIMILARITY edge",
+      "Train RGCN and compare with model2"
+    ]
+  },
+  "copied_files": [
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_sampled_reviews.csv",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_sampled_reviews.csv",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_split.csv",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_split.csv",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_list.csv",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_edge_list_base.csv",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_index.npy",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_edge_index_base.npy",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_edge_type.npy",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_edge_type_base.npy",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\data\\model2_node_features.csv",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_source_node_features_sbert384.csv",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\configs\\model2_edge_config.json",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\configs\\model3_edge_config_base.json",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\configs\\model2_feature_columns.json",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\configs\\model3_source_feature_columns_sbert384.json",
+      "required": true
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\outputs\\rgcn_tuned_result.json",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\outputs\\model2_reference_rgcn_tuned_result.json",
+      "required": false
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\outputs\\model2_comparison.csv",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\outputs\\model2_reference_comparison.csv",
+      "required": false
+    },
+    {
+      "src": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model2\\outputs\\model2_comparison.json",
+      "dst": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\outputs\\model2_reference_comparison.json",
+      "required": false
+    }
+  ],
+  "missing_optional_files": [],
+  "missing_required_files": []
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-05-11 16:56:11",
+  "model": "model3",
+  "step": "02_node_features_sbert_pca",
+  "input": {
+    "source_feature_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_source_node_features_sbert384.csv",
+    "split_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_split.csv",
+    "source_feature_shape": [
+      25000,
+      397
+    ],
+    "split_shape": [
+      25000,
+      6
+    ]
+  },
+  "feature_design": {
+    "manual_features": [
+      "rating",
+      "rating_extreme",
+      "rating_abs_deviation_from_prod_avg",
+      "same_rating_prod_7d_count",
+      "review_length_log",
+      "user_review_count_global",
+      "prod_review_count_global",
+      "user_age_days_at_review"
+    ],
+    "text_feature": "SBERT PCA",
+    "sbert_source_columns_count": 384,
+    "pca_components": 128,
+    "total_feature_count": 136
+  },
+  "pca": {
+    "fit_on": "train split only",
+    "random_state": 42,
+    "explained_variance_ratio_sum": 0.8412580637328759
+  },
+  "split_counts": {
+    "train": 16000,
+    "valid": 4000,
+    "test": 5000
+  },
+  "output": {
+    "node_feature_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_node_features.csv",
+    "feature_config_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\configs\\model3_feature_columns.json",
+    "pca_model_path": "C:\\Users\\user\\OneDrive\\Desktop\\ITDA\\model3\\data\\model3_sbert_pca128.pkl",
+    "output_feature_shape": [
+      25000,
+      137
+    ]
+  }
+}

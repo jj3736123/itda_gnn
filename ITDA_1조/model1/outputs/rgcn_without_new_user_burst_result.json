@@ -1,0 +1,65 @@
+{
+    "model_name": "SimpleRGCN_without_New_User_Burst_edge",
+    "removed_edge_type": 2,
+    "best_epoch": 84,
+    "save_best_by": "valid_pr_auc",
+    "best_validation_threshold": 0.6300000000000001,
+    "num_nodes": 25000,
+    "num_features": 40,
+    "num_edges": 284656,
+    "num_relations": 2,
+    "hyperparameters": {
+        "hidden_channels": 64,
+        "dropout": 0.3,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "max_epochs": 150,
+        "patience": 25,
+        "pos_weight": 3.87062406539917
+    },
+    "train_result": {
+        "accuracy": 0.864875,
+        "macro_f1": 0.8120222140705284,
+        "pr_auc": 0.7789459108871983,
+        "confusion_matrix": [
+            [
+                11161,
+                1554
+            ],
+            [
+                608,
+                2677
+            ]
+        ]
+    },
+    "valid_result": {
+        "accuracy": 0.7875,
+        "macro_f1": 0.7018397539511494,
+        "pr_auc": 0.5467150872742029,
+        "confusion_matrix": [
+            [
+                2647,
+                532
+            ],
+            [
+                318,
+                503
+            ]
+        ]
+    },
+    "test_result": {
+        "accuracy": 0.7828,
+        "macro_f1": 0.6975989018663327,
+        "pr_auc": 0.5442959845451623,
+        "confusion_matrix": [
+            [
+                3284,
+                690
+            ],
+            [
+                396,
+                630
+            ]
+        ]
+    }
+}

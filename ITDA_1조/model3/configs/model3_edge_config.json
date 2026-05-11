@@ -1,0 +1,38 @@
+{
+  "edge_type_map": {
+    "RUR": 0,
+    "PRODUCT_TIME_7D": 1,
+    "NEW_USER_BURST_7D": 2
+  },
+  "time_window_days": 7,
+  "new_user_burst_condition": {
+    "user_review_count_global": "<= 2",
+    "user_age_days_at_review": "<= 30"
+  },
+  "is_undirected": true,
+  "self_loop_included": false,
+  "model": "model3",
+  "new_relation": {
+    "edge_type_id": 3,
+    "edge_name": "TEXT_SIMILARITY",
+    "description": "Connect reviews within the same product when their SBERT semantic similarity is high.",
+    "conditions": {
+      "same_prod_id": true,
+      "different_user_id": true,
+      "min_text_length": 20,
+      "cosine_similarity_threshold": 0.85,
+      "top_k_per_review": 3,
+      "bidirectional_directed_edges": true,
+      "label_used": false
+    }
+  },
+  "model3_edge_type_mapping_note": {
+    "base_edge_type_max": 2,
+    "text_similarity_edge_type_id": 3
+  },
+  "model3_edge_counts": {
+    "base_directed_edges": 356866,
+    "text_similarity_directed_edges": 710,
+    "combined_directed_edges": 357576
+  }
+}
