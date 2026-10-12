@@ -1050,8 +1050,8 @@ model3/report_assets/
 프로젝트는 모델 단계별로 구성되어 있다.
 
 ```text
-ITDA/
-├─ data/
+repo/
+├─ data/   (미포함)
 │  └─ yelpzip_preprocessed.csv
 │
 ├─ model1/
@@ -1096,15 +1096,7 @@ validation-based TEXT_SIMILARITY grid search를 적용한 최종 선택 모델
 
 ## 15. 실행 순서
 
-작업은 주로 Windows VS Code 환경에서 수행하였다.
-
-`py` 명령이 제대로 작동하지 않을 경우 Python 실행 파일을 직접 지정할 수 있다.
-
-예시는 다음과 같다.
-
-```powershell
-& C:/Users/user/AppData/Local/Programs/Python/Python313/python.exe c:/Users/user/OneDrive/Desktop/ITDA/model3/notebooks/10_case_study_model3_final.py
-```
+저장소 루트에서 아래 순서대로 실행한다. 원본 데이터(`data/yelpzip_preprocessed.csv`)는 저장소에 포함되어 있지 않다.
 
 ### 15.1 Model 1
 
@@ -1116,7 +1108,6 @@ py model1/notebooks/04_prepare_data.py
 py model1/notebooks/05_train_rgcn.py
 py model1/notebooks/06_train_rgcn_without_new_user_burst.py
 py model1/notebooks/07_train_graphsage.py
-py model1/notebooks/08_compare_results.py
 py model1/notebooks/analyze_rgcn_predictions.py
 py model1/notebooks/extract_case_studies.py
 ```
@@ -1149,7 +1140,7 @@ py model3/notebooks/08_case_study.py
 ### 15.4 Model3 Final
 
 ```powershell
-py model3/notebooks/09_model3_final_grid_search.py
+py model3/notebooks/09_train_model3_final_grid_search.py
 py model3/notebooks/10_case_study_model3_final.py
 ```
 

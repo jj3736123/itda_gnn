@@ -1,0 +1,14 @@
+# raw data and intermediate artifacts (not tracked: size)
+data/
+*/data/
+*/report_assets/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
